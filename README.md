@@ -43,7 +43,7 @@
 ## Contributors
 
 - [@Mayank Dagar](https://github.com/MayankDagar77)
-- [@Akshata Jinagond](https://github.com/akshatajinagond87)
+- [@Akshata Jinagond](https://github.com/akshatajinagond91)
 - [@Yash Bhindia](https://github.com/yashbhindia)
 
 ## Installation & Run
