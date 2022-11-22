@@ -42,11 +42,9 @@
 
 ## Contributors
 
-- [@Tridip Rong](https://github.com/TridipRong)
-- [@MD Farooque Ansari](https://github.com/mrFarooque)
-- [@Pushpam Kumar](https://github.com/pushpam-386)
-- [@Saurabh Pragrut](https://github.com/SaurabhPagrut)
-- [@Efat Husneara](https://github.com/efat56)
+- [@Mayank Dagar](https://github.com/MayankDagar77)
+- [@Akshata Jinagond](https://github.com/akshatajinagond87)
+- [@Yash Bhindia](https://github.com/yashbhindia)
 
 ## Installation & Run
 
@@ -113,8 +111,8 @@
 
 ```
     {
-        "mobileNo": "7056319981",
-        "password": "Clickme@007"
+        "mobileNo": "888260649",
+        "password": "Admin@123"
     }
 ```
 
@@ -127,7 +125,7 @@
 
 ## Video Explainer of flow control
 
-<a href="https://drive.google.com/file/d/17K024rskhj2pOkma9BQkG0Zxeozvd3XA/view?usp=sharing">**Video Drive Link** </a>
+<a href="https://drive.google.com/file/d/17K024rskhj2pOkma9BQkGxeozvd3XA/view?usp=sharing">**Video Drive Link** </a>
 
 ### E-R Diagram Of Covid-19 Application
 
