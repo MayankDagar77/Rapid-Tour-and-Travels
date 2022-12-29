@@ -89,9 +89,9 @@ ER diagram=========
 
 ## API Root Endpoint
 
-`https://localhost:8080/`
+`https://localhost:8888/`
 
-`http://localhost:8080/swagger-ui/`
+`http://localhost:8888/swagger-ui/`
 
 ## API Module Endpoints
 
