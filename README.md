@@ -1,6 +1,6 @@
 # REST API for an Online Trip Management System
 
-<img src="">
+<img src="/Images/Rapid_logo.jpeg">
 
 - We have developed this REST API for an Online Trip Management System. This API performs all the fundamental CRUD operations of any Trip Management Application platform with user validation at every step.
 - This project is developed by team of 5 Back-End Developers during project week in Masai School.
