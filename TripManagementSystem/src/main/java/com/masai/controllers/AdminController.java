@@ -192,14 +192,15 @@ public class AdminController {
 //		return new ResponseEntity<Bus>(bus2,HttpStatus.OK);
 //	}
 //	
+	
 	@PostMapping("/travels")
-	public ResponseEntity<Travels> addTravles(@RequestBody Travels travels) throws TravelsException{
+	public ResponseEntity<Travels> addTravels(@RequestBody Travels travels) throws TravelsException{
 		Travels travels2 = travelsService.addTravels(travels); 
 		return new ResponseEntity<Travels>(travels2,HttpStatus.OK);
 	}
 	
 	@GetMapping("/travels")
-	public ResponseEntity<List<Travels>> allTravles(@RequestBody Travels travels) throws TravelsException{
+	public ResponseEntity<List<Travels>> allTravels(@RequestBody Travels travels) throws TravelsException{
 		List<Travels> travelsList = travelsService.viewTravels(); 
 		return new ResponseEntity<List<Travels>>(travelsList,HttpStatus.OK);
 	}
