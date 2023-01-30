@@ -46,12 +46,6 @@ public class CustomerController {
 	@Autowired CustomerLoginService customerLoginService;
 	@Autowired IPackageService packageService;
 	
-
-//  Fmethod
-//	@PostMapping("/")
-//	public ResponseEntity<Customer> saveCustomer(@RequestBody CustomerDTO customer){
-//		return new ResponseEntity<Customer>(customerService.createCustomer(customer),HttpStatus.OK);
-//	}
 	
 	@PostMapping("/")
 	public Customer saveCustomer(@Valid @RequestBody CustomerSigninDTO customer) {
