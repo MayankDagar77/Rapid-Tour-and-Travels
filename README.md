@@ -171,7 +171,7 @@ ER diagram=========
 
 ---
 
-<img src=".\Images\LogInController.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+![image](https://user-images.githubusercontent.com/105930703/202099260-796ee7a9-f22d-48c0-b0c4-cb12d71f6627.png)
 
 ---
 
@@ -179,7 +179,7 @@ ER diagram=========
 
 ---
 
-<img src=".\Images\AdminController.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+![image](https://user-images.githubusercontent.com/105930703/202099426-88f70611-5609-4e31-a474-98f40077ae31.png)
 
 ---
 
