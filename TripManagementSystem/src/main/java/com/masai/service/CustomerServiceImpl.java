@@ -43,7 +43,9 @@ public class CustomerServiceImpl implements CustomerService{
 	@Override
 	public Customer updateCustomer(CustomerSigninDTO customersigninDto, String key) {
 		 Optional<CurrentCustomerSession> optCurrcustomer= CustomerSessionDAO.findByUuid(key);
-		 Customer customer = new Customer();
+		 
+		CurrentCustomerSession ccs = optCurrcustomer.get();
+		 Customer customer = CustomerDao.findById(ccs.getUserId()).get();
 			customer.setCustomerName(customersigninDto.getCustomerName());
 			customer.setPassword(customersigninDto.getPassword());
 			customer.setMobile(customersigninDto.getMobile());
