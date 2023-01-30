@@ -200,7 +200,7 @@ public class AdminController {
 	}
 	
 	@GetMapping("/travels")
-	public ResponseEntity<List<Travels>> allTravels(@RequestBody Travels travels) throws TravelsException{
+	public ResponseEntity<List<Travels>> allTravels() throws TravelsException{
 		List<Travels> travelsList = travelsService.viewTravels(); 
 		return new ResponseEntity<List<Travels>>(travelsList,HttpStatus.OK);
 	}
