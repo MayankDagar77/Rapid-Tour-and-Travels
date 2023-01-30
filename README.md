@@ -1,6 +1,6 @@
 # REST API for an Online Trip Management System
 
-<img src="https://github.com/MayankDagar77/Rapid-Tour-and-Travels/blob/main/Images/Rapid_Logo.jpeg" alt="coding girl gif">
+<img align="right" style="height: 200px;" src="https://github.com/MayankDagar77/Rapid-Tour-and-Travels/blob/main/Images/Rapid_Logo.jpeg" alt="coding girl gif">
 
 <img align="right" style="height: 200px;" src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" alt="coding girl gif">
 
