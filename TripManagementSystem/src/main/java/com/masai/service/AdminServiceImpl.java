@@ -38,13 +38,15 @@ public class AdminServiceImpl implements AdminService{
 	@Override
 	public Admin updateAdmin(AdminSigninDTO adminsigninDto, String key) {
 		 Optional<CurrentAdminSession> optCurrAdmin= adminSessionDAO.findByUuid(key);
-		 Admin admin = new Admin();
+		
+		 CurrentAdminSession cas = optCurrAdmin.get();
+		 Admin admin = adminDao.findById(cas.getAdminId()).get();
 		 admin.setAdminName(adminsigninDto.getAdminName());
 		 admin.setPassword(adminsigninDto.getPassword());
 		 admin.setMobile(adminsigninDto.getMobile());
 		 admin.setEmail(adminsigninDto.getEmail());
-		 
 		 admin.setUserType("admin");
+		
 			if(!optCurrAdmin.isPresent()) {
 				
 				throw new RuntimeException("Unauthorised access");
