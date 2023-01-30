@@ -181,7 +181,7 @@ ER diagram=========
 
 ---
 
-### User Controller
+### Customer Controller
 
 ---
 
