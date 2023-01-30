@@ -151,8 +151,6 @@ ER diagram=========
 
 <a href="https://drive.google.com/drive/folders/1ktgjb8dRtgKQ5BCFNhBUr3BEzYLEeIdi?usp=sharing">**Video Drive Link** </a>
 
-### E-R Diagram Of Covid-19 Application
-
 ---
 
 <img src=".\Images\ER_Diagram_TMS.jpeg" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
