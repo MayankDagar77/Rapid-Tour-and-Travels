@@ -1,7 +1,7 @@
 # REST API for an Online Trip Management System
 
 <img align="right" style="height: 200px;" src="https://github.com/MayankDagar77/Rapid-Tour-and-Travels/blob/main/Images/Rapid_Logo.jpeg" alt="coding girl gif">
-![Alt text](https://github.com/MayankDagar77/Rapid-Tour-and-Travels/blob/main/Images/Rapid_Logo.jpeg" alt="coding girl gif)
+![Alt text](https://github.com/MayankDagar77/Rapid-Tour-and-Travels/blob/main/Images/Rapid_Logo.jpeg)
 
 - We have developed this REST API for an Online Trip Management System. This API performs all the fundamental CRUD operations of any Trip Management Application platform with user validation at every step.
 - This project is developed by team of 3 Back-End Developers during project week in Masai School.
