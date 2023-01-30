@@ -52,7 +52,7 @@ public class CustomerController {
 		return customerService.createCustomer(customer);
 	}
 
-	// to update customer by passing key
+	//Updating customer by passing key
 	@PutMapping("/update")
 	public Customer updateCustomer(@RequestBody CustomerSigninDTO customer, @RequestParam(required = false) String key) {
 		customerLoginService.isLoggedInByUUID(key);
