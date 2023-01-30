@@ -21,22 +21,6 @@ public class CustomerServiceImpl implements CustomerService{
 	
 	@Autowired
 	private CustomerSessionDAO CustomerSessionDAO;
-
-
-//	Fmethod
-//	@Override
-//	public Customer createCustomer(CustomerDTO customerDto) {
-//		
-//			Customer customer = new Customer();
-//			customer.setCustomerName(customerDto.getCustomerName());
-//			customer.setPassword(customerDto.getPassword());
-//			customer.setMobile(customerDto.getMobile());
-//			customer.setEmail(customerDto.getEmail());
-//			customer.setAddress(customerDto.getAddress());
-//			customer.setUserType("customer");
-//			return CustomerDao.save(customer);
-//	}
-	
 	
 	@Override
 	public Customer createCustomer(CustomerSigninDTO customersigninDto) {
