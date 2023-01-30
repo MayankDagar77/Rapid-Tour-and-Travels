@@ -185,7 +185,7 @@ ER diagram=========
 
 ---
 
-<img src=".\Images\CustomerController.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+![image](https://user-images.githubusercontent.com/105930703/202099608-6ad56ed9-ff48-405b-9b36-fff1529182b8.png)
 
 ---
 
@@ -193,7 +193,7 @@ ER diagram=========
 
 ---
 
-<img src=".\Images\Models.png" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+![image](https://user-images.githubusercontent.com/105930703/202099802-8e5dcf6b-8974-454b-94fa-f0e049d1827f.png)
 
 ---
 
