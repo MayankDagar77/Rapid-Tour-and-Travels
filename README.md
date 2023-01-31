@@ -49,17 +49,18 @@
 
 ## Features
 
-- User and Admin authentication & validation with session uuid having.
+- User and Admin authentication & validation using session uuid(key) and  @Valid annotation.
 - Admin Features:
-  - Administrator Role of the entire application
-  - Only registered admins with valid session token can add/update/delete Package,Hotel,Route or customer from main database.
+  - Administrator Role of the entire application where admin can be added or removed.
+  - Only registered admins with valid session token(uuid) can add/update/delete Package,Hotel,Route or customer from main database.
   - Admin can access the details of different Routes, Bus, Packages, TicketDetails,Feedback,Customer,Reports,etc.
-- User Features:
-  - A user can register himself or herself on the platform.
-  - He/She can check the Packages and Hotels availabilty.
-  - If Trip Package is available, can book the trip package by providing payment details.
-  - After booking, he will get booking details for the whole Package inside this there will be all details regarding the ticket details ,total cost, etc.
-  - If the customer want can cancel the booking.
+  - Only admin can generate reports.
+- Customer Features:
+  - A customer can register himself or herself on the platform.
+  - User/Customer can check the Packages and Hotels availabilty.
+  - If Trip Package is available, customer can book the trip package by providing payment details.
+  - After booking, customer will get booking details for the whole Package inside this there will be all details regarding the ticket details ,total cost, etc.
+  - Customer can cancel the booking.
 
 ## Contributors
 
@@ -73,7 +74,7 @@
 - Update the port number, username and password as per your local database config.
 
 ```
-    server.port=8888
+    server.port=8888 // update it 
 
     spring.datasource.url=jdbc:mysql://localhost:3306/tmsdb;
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
@@ -85,8 +86,6 @@
 ER diagram========= 
 
 ![image](https://user-images.githubusercontent.com/105930703/201670525-6a67228a-b2af-49db-a409-acf8e34595e2.png)
-
-## AWS Deployed link
 
 ## API Root Endpoint
 
